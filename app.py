@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     # A welcome message to test our server
-    return "<h1>Test Deploy/h1>"
+    return "<h1>Test Deploy</h1>"
 
 
 if __name__ == '__main__':
